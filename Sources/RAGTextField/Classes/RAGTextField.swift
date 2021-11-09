@@ -584,6 +584,7 @@ open class RAGTextField: UITextField {
         
         hint = nil
         hintLabel.font = font
+        hintLabel.adjustsFontForContentSizeCategory = true
         hintLabel.textAlignment = textAlignment
         hintLabel.lineBreakMode = .byWordWrapping
         hintLabel.numberOfLines = 0

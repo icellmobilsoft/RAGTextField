@@ -53,6 +53,7 @@ final class PlaceholderView: UIView {
     private(set) lazy var label: UILabel = {
         
         let label = UILabel()
+        label.adjustsFontForContentSizeCategory = true
         label.textColor = UIColor(white: 0.75, alpha: 1.0)
         addSubview(label)
         
